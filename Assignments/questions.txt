@@ -1,0 +1,10 @@
+hide or unload --> doesnt matter
+del on mnu or delete in keydown
+if you delete a record but dont set the last oldest numstudent value
+to null does that matter?
+With Student(K)
+            .LastName = ""
+            .FirstName = ""
+            .HomeForm = ""
+            .Mark = "-1"
+        End With
